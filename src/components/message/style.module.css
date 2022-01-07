@@ -1,0 +1,32 @@
+.owner{
+    width: 300px;
+    margin: 10px 0px 10px 10px;
+    background-color: #333;
+    border-radius: 0px 10px 10px 10px;
+}
+.owner p:first-child{
+    padding: 10px;
+    color: white;
+} 
+.owner p:last-child{
+    padding: 0px 10px 10px 10px;
+    color: white;
+    font-size: 15px;
+}
+.other{
+    width: 300px;
+    margin: 10px 10px 10px 0px;
+    background-color: #333;
+    border-radius: 10px 0px 10px 10px;
+    left: calc(100% - 310px);
+    position: relative;
+}
+.other p:first-child{
+    padding: 10px;
+    color: white;
+} 
+.other p:last-child{
+    padding: 0px 10px 10px 10px;
+    color: white;
+    font-size: 15px;
+}
